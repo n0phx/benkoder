@@ -9,4 +9,10 @@
                    :1.6 {:dependencies [[org.clojure/clojure "1.6.0"]]}
                    :1.7 {:dependencies [[org.clojure/clojure "1.7.0-alpha4"]]}
                    :master {:dependencies [[org.clojure/clojure "1.7.0-master-SNAPSHOT"]]}}
-  :aliases        {"all" ["with-profile" "1.4,1.5,1.6,1.7"]})
+  :aliases        {"all" ["with-profile" "1.4,1.5,1.6,1.7,master"]}
+  :repositories {"sonatype" {:url "http://oss.sonatype.org/content/repositories/releases"
+                             :snapshots false
+                             :releases {:checksum :fail :update :always}}
+                 "sonatype-snapshots" {:url "http://oss.sonatype.org/content/repositories/snapshots"
+                                       :snapshots true
+                                       :releases {:checksum :fail :update :always}}})
