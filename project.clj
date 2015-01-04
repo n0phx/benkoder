@@ -1,8 +1,15 @@
-(defproject benkoder "0.1.0-SNAPSHOT"
+(defproject benkoder "0.1.0"
   :description "Bencode encoding and decoding library."
   :url "https://github.com/integricho/benkoder"
+  :scm {:name "git"
+        :url "https://github.com/integricho/benkoder"}
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :pom-addition [:developers [:developer
+                               [:name "Andrean Franc"]
+                               [:url "https://integricho.github.io/"]
+                               [:email "andrean.franc@gmail.com"]
+                               [:timezone "+1"]]]
   :dependencies [[org.clojure/clojure "1.6.0"]]
   :profiles       {:1.4 {:dependencies [[org.clojure/clojure "1.4.0"]]}
                    :1.5 {:dependencies [[org.clojure/clojure "1.5.1"]]}
