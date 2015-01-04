@@ -1,4 +1,5 @@
-# benkoder [![Build Status](https://travis-ci.org/integricho/benkoder.svg)](https://travis-ci.org/integricho/benkoder) [![Clojars Project](http://clojars.org/benkoder/latest-version.svg)](http://clojars.org/benkoder)
+# benkoder [![Build Status](https://travis-ci.org/integricho/benkoder.svg)](https://travis-ci.org/integricho/benkoder)
+[![Clojars Project](http://clojars.org/benkoder/latest-version.svg)](http://clojars.org/benkoder)
 
 A Clojure library designed to perform Bencode encoding and decoding.
 
