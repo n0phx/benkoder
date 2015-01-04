@@ -4,13 +4,13 @@ A Clojure library designed to perform Bencode encoding and decoding.
 
 ## Usage
 
-(use '[benkoder.encode])
-(bencode {:a 3})
+    (use '[benkoder.encode])
+    (bencode {:a 3})
 
 or
 
-(use '[benkoder.decode])
-(bdecode "d1:ai3ee")
+    (use '[benkoder.decode])
+    (bdecode "d1:ai3ee")
 
 ## License
 
